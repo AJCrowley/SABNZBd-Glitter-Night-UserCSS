@@ -8,7 +8,8 @@ To use, just install a UserCSS browser extension, I use [Style for Chrome](https
 ```css
 @-moz-document url-prefix("http://127.0.0.1:6060/sabnzbd/") {
 	/* css changes live here /=
-}`
+}
+```
 
 There are however plenty of options, depending upon your browser, but I've found this one to be the best for my purposes.
 
