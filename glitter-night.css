@@ -14,8 +14,8 @@
         --light-color: #bbb;
         --mid-color: #666;
         --history-color: #ccc;
-        --odd-gradient: linear-gradient(90deg, rgb(51, 51, 51) 0%, rgb(85, 85, 85) 90%);
-        --even-gradient: linear-gradient(270deg, rgb(51, 51, 51) 0%, rgb(85, 85, 85) 90%);
+        --odd-gradient: linear-gradient(90deg, #333 0%, #555 90%);
+        --even-gradient: linear-gradient(270deg, #333 0%, #555 90%);
     }
 
     body {
