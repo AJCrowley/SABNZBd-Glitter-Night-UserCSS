@@ -1,8 +1,8 @@
 # SABnzbd Glitter - Night UserCSS Script
 
-CSS &copy; 2017/2018 [Kris McCann](https://github.com/AJCrowley) - [krismccann@gmail.com](mailto:krismccann@gmail.com)
+CSS &copy; 2017-2023 [Kris McCann](https://github.com/AJCrowley)
 
-Some simple CSS enhancements for SABnzbd's Glitter skin (night version).
+Some simple CSS enhancements for SABnzbd's Glitter skin (night version). Please make sure that in your config, under General, that the ```Glitter - Night``` skin is selected.
 
 This is somewhat a work in progress, so please check back regularly for updates to make sure you're running the best version of the CSS.
 
