@@ -32,7 +32,7 @@
     .ui-slider-range,
     .ui-slider-handle,
     .multioperations-selector,
-    .form-control:not(div.input-group input),
+    .form-control:not(input[name='nzbURL']),
     table,
     tbody,
     tr,
