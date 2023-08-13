@@ -17,7 +17,7 @@
         --history-color: #ccc;
         --odd-gradient: linear-gradient(90deg, #333 0%, #555 90%);
         --even-gradient: linear-gradient(270deg, #333 0%, #555 90%);
-        --vertical-gradient: linear-gradient(to top, var(--mid-color), var(--dark-color));
+        --vertical-gradient: linear-gradient(0deg, var(--mid-color), var(--dark-color));
     }
 
     body {
