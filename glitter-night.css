@@ -32,7 +32,7 @@
     .ui-slider-range,
     .ui-slider-handle,
     .multioperations-selector,
-    .form-control,
+    .form-control:not(div.input-group input),
     table,
     tbody,
     tr,
