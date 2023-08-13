@@ -26,6 +26,19 @@
         width: 95%;
     }
 
+    .ui-slider,
+    .ui-slider-range,
+    .ui-slider-handle,
+    .multioperations-selector,
+    .form-control,
+    table,
+    tbody,
+    tr,
+    tbody.no-downloads > tr > td:only-child,
+    #queue-messages .label{
+        border-radius: var(--border-radius) !important;
+    }
+
     .main-navbar {
         border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
     }
@@ -34,78 +47,18 @@
         border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
     }
 
-    h2 {
-        font-size: 1.5em;
-    }
-
-    .table > tbody > tr > td {
-        padding: 5px;
-    }
-
-    .history td {
-        color: var(--history-color) !important;
-    }
-
     .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle),
-    .pagination > li:first-child > span {
+    .pagination > li:first-child > span,
+    tbody > tr:only-child > td:first-child,
+    #queue-messages table tbody td:only-child {
         border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
     }
 
     .btn-group > .btn + .dropdown-toggle,
-    .pagination > li:last-child > span {
+    .pagination > li:last-child > span,
+    tbody > tr:only-child > td:last-child,
+    #queue-messages .table-messages-remove {
         border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-    }
-
-    .btn-group > .btn {
-        background-color: var(--dark-color);
-        border-color: var(--mid-color) !important;
-        border-radius: var(--border-radius) !important;
-        color: var(--light-color);
-    }
-
-    .caret {
-        border-top-color: var(--light-color) !important;
-    }
-
-    .peity {
-        background: linear-gradient(to bottom, #353535, #444444);
-        border-radius: var(--border-radius) !important;
-    }
-
-    polygon {
-        fill: var(--color-gold);
-    }
-
-    polyline {
-        stroke: var(--color-orange);
-        stroke-width: 1px;
-        ;
-    }
-
-    .progress {
-        border-radius: var(--border-radius) !important;
-        overflow: hidden;
-    }
-
-    .progress-bar-info {
-        background-color: var(--color-gold);
-        border-right: 1px solid var(--color-orange);
-        border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-    }
-
-    .multioperations-selector,
-    .form-control {
-        border-radius: var(--border-radius) !important;
-    }
-
-    .table {
-        border-collapse: separate !important;
-    }
-
-    table,
-    tbody,
-    tr {
-        border-radius: var(--border-radius) !important;
     }
 
     tbody > tr:first-child > td:first-child {
@@ -124,30 +77,6 @@
         border-radius: 0 0 var(--border-radius) 0 !important;
     }
 
-    tbody > tr:only-child > td:first-child {
-        border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-    }
-
-    tbody > tr:only-child > td:last-child {
-        border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-    }
-
-    tbody.no-downloads > tr > td:only-child {
-        border-radius: var(--border-radius) var(--border-radius) var(--border-radius) var(--border-radius) !important;
-    }
-
-    #queue-messages .label {
-        border-radius: var(--border-radius) var(--border-radius) var(--border-radius) var(--border-radius) !important;
-    }
-
-    #queue-messages table tbody td:only-child {
-        border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
-    }
-
-    #queue-messages .table-messages-remove {
-        border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-    }
-
     table.queue-table tr:nth-child(even),
     table.history-table tr:nth-child(odd) {
         background: var(--odd-gradient);
@@ -156,5 +85,77 @@
     table.queue-table tr:nth-child(odd),
     table.history-table tr:nth-child(even) {
         background: var(--even-gradient);
+    }
+
+    .ui-slider-range {
+        background-color: var(--color-gold) !important;
+    }
+
+    .ui-slider {
+        background-color: var(--dark-color) !important;
+    }
+
+    .ui-slider-handle {
+        background-color: var(--light-color) !important;
+    }
+
+    .history td {
+        color: var(--history-color) !important;
+    }
+
+    .glyphicon-link {
+        color: var(--light-color);
+    }
+
+    .btn-group .caret {
+        border-top-color: var(--light-color) !important;
+    }
+
+    .btn-group.open .caret {
+        border-top-color: var(--dark-color) !important;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .table > tbody > tr > td {
+        padding: 5px;
+    }
+
+    .btn-group > .btn {
+        background-color: var(--dark-color);
+        border-color: var(--mid-color) !important;
+        border-radius: var(--border-radius) !important;
+        color: var(--light-color);
+    }
+
+    .peity {
+        background: linear-gradient(to bottom, #353535, #444444);
+        border-radius: var(--border-radius) !important;
+    }
+
+    polygon {
+        fill: var(--color-gold);
+    }
+
+    polyline {
+        stroke: var(--color-orange);
+        stroke-width: 1px;
+    }
+
+    .progress {
+        border-radius: var(--border-radius) !important;
+        overflow: hidden;
+    }
+
+    .progress-bar-info {
+        background-color: var(--color-gold) !important;
+        border-right: 1px solid var(--color-orange) !important;
+        border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
+    }
+
+    .table {
+        border-collapse: separate !important;
     }
 /*}*/
