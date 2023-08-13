@@ -17,6 +17,7 @@
         --history-color: #ccc;
         --odd-gradient: linear-gradient(90deg, #333 0%, #555 90%);
         --even-gradient: linear-gradient(270deg, #333 0%, #555 90%);
+        --vertical-gradient: linear-gradient(to top, var(--mid-color), var(--dark-color));
     }
 
     body {
@@ -36,6 +37,7 @@
     tbody,
     tr,
     tbody.no-downloads > tr > td:only-child,
+    table.queue-table tr:first-child,
     #queue-messages .label{
         border-radius: var(--border-radius) !important;
     }
@@ -131,8 +133,9 @@
         color: var(--light-color);
     }
 
-    .peity {
-        background: linear-gradient(to top, var(--mid-color), var(--dark-color));
+    .peity,
+    table.queue-table tr:first-child > td {
+        background: var(--vertical-gradient);
         border-radius: var(--border-radius) !important;
     }
 
