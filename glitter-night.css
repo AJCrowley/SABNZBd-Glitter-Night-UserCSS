@@ -6,6 +6,7 @@
 @author         Kris McCann
 ==/UserStyle== */
 /*@-moz-document url-prefix("http://127.0.0.1:6060/sabnzbd/") {*/
+    /* Note: Make sure that the selected theme in SABNZBd is Glitter - Night for this CSS to work */
     :root {
         --border-radius: 12px;
         --color-gold: #ffca28;
