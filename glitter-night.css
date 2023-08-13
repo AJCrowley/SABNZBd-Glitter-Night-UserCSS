@@ -132,7 +132,7 @@
     }
 
     .peity {
-        background: linear-gradient(to bottom, var(--mid-color), var(--dark-color));
+        background: linear-gradient(to top, var(--mid-color), var(--dark-color));
         border-radius: var(--border-radius) !important;
     }
 
