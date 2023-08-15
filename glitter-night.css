@@ -52,14 +52,14 @@
 
     .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle),
     .pagination > li:first-child > span,
-    tbody > tr:only-child > td:first-child,
+    table:not(.queue-table) > tbody > tr:only-child > td:first-child,
     #queue-messages table tbody td:only-child {
         border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
     }
 
     .btn-group > .btn + .dropdown-toggle,
     .pagination > li:last-child > span,
-    tbody > tr:only-child > td:last-child,
+    table:not(.queue-table) > tbody > tr:only-child > td:last-child,
     #queue-messages .table-messages-remove {
         border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
     }
@@ -150,6 +150,11 @@
     .progress {
         border-radius: var(--border-radius) !important;
         overflow: hidden;
+    }
+
+    .col-sm-6 {
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .progress-bar-info {
