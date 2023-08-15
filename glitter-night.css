@@ -37,6 +37,8 @@
     tbody,
     tr,
     tbody.no-downloads > tr > td:only-child,
+    tbody.no-downloads,
+    table.queue-table > tbody.no-downloads > tr:only-child > td,
     table.queue-table tr:first-child,
     #queue-messages .label{
         border-radius: var(--border-radius) !important;
@@ -50,34 +52,34 @@
         border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
     }
 
+    table > tbody > tr:first-child > td:first-child {
+        border-radius: var(--border-radius) 0 0 0 !important;
+    }
+
+    table > tbody > tr:first-child > td:last-child {
+        border-radius: 0 var(--border-radius) 0 0 !important;
+    }
+
+    table > tbody > tr:last-child > td:first-child {
+        border-radius: 0 0 0 var(--border-radius) !important;
+    }
+
+    table > tbody > tr:last-child > td:last-child {
+        border-radius: 0 0 var(--border-radius) 0 !important;
+    }
+
     .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle),
     .pagination > li:first-child > span,
-    table:not(.queue-table) > tbody > tr:only-child > td:first-child,
+    table > tbody > tr:only-child > td:first-child,
     #queue-messages table tbody td:only-child {
         border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
     }
 
     .btn-group > .btn + .dropdown-toggle,
     .pagination > li:last-child > span,
-    table:not(.queue-table) > tbody > tr:only-child > td:last-child,
+    table > tbody > tr:only-child > td:last-child,
     #queue-messages .table-messages-remove {
         border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
-    }
-
-    table:not(.queue-table) > tbody > tr:first-child > td:first-child {
-        border-radius: var(--border-radius) 0 0 0 !important;
-    }
-
-    table:not(.queue-table) > tbody > tr:first-child > td:last-child {
-        border-radius: 0 var(--border-radius) 0 0 !important;
-    }
-
-    table:not(.queue-table) > tbody > tr:last-child > td:first-child {
-        border-radius: 0 0 0 var(--border-radius) !important;
-    }
-
-    table:not(.queue-table) > tbody > tr:last-child > td:last-child {
-        border-radius: 0 0 var(--border-radius) 0 !important;
     }
 
     table.queue-table tr:nth-child(even),
