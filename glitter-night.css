@@ -101,7 +101,6 @@
         background-color: var(--color-gold) !important;
     }
 
-   .peity,
    .ui-slider {
         background-color: var(--dark-color) !important;
     }
@@ -134,10 +133,12 @@
         padding: 5px;
     }
 
+    .peity,
     .btn-group > .btn {
         background-color: var(--dark-color);
         border-color: var(--mid-color) !important;
         border-radius: var(--border-radius) !important;
+        border-style: solid;
         color: var(--light-color);
     }
 
