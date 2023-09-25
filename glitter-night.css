@@ -93,7 +93,6 @@
         background: var(--even-gradient);
     }
 
-    .peity,
     table.queue-table > tbody.no-downloads > tr:only-child {
         background: var(--vertical-gradient);
     }
@@ -102,7 +101,8 @@
         background-color: var(--color-gold) !important;
     }
 
-    .ui-slider {
+   .peity,
+   .ui-slider {
         background-color: var(--dark-color) !important;
     }
 
