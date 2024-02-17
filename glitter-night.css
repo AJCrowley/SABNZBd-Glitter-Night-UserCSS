@@ -53,10 +53,6 @@
         border-radius: 0 0 var(--border-radius) var(--border-radius) !important;
     }
 
-    tr.queue-item {
-        white-space: nowrap;
-    }
-
     table > tbody > tr:first-child > td:first-child {
         border-radius: var(--border-radius) 0 0 0 !important;
     }
@@ -99,6 +95,10 @@
 
     table.queue-table > tbody.no-downloads > tr:only-child {
         background: var(--vertical-gradient);
+    }
+
+    table.queue-table > tbody > tr.queue-item {
+        white-space: nowrap;
     }
 
     .ui-slider-range {
